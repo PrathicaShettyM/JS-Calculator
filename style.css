@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+.calc{
+    padding: 15px;
+    background: #080808;
+    max-width: 700px;
+    min-width: 600px;  
+}
+button{
+    padding: 28px;
+    border: none;
+    border-radius: 50%;
+    background: #817f7f;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+button:hover{
+    background: #ede8e8;
+    color: #080808;
+}
