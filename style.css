@@ -38,10 +38,14 @@
 .display input{
     text-align: right;
     flex: 1;
-    font-size: 45px;
+    font-size: 65px;
     box-shadow: none;
+    background: #02f713;
 }
-form input .equal{
+#equal{
+    background: #02f713;
     width: 145px;
-
+}
+#btn{
+    background:#02f713 ;
 }
