@@ -3,47 +3,30 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins';
-    background: #312f2f;
 }
-.calc{
-    background: #000;
-    display: block;
-    height: 600px;
-    width: 400px;
-    margin: 100px auto;
-    border: 3px solid greenyellow;
-    padding: 20px;
-}
-.Screen{
-    height: 100px;
-    border: 2px solid greenyellow;
-    padding: 30px;
-    margin-bottom: 30px;
-}
-.button{
-    background: transparent;
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #fefdfd;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    padding: 10px 20px;
 }
-.btn{
-    height: 70px;
-    width: 70px;
-    text-align: center;
+.calculator{
+    background: #272525;
     padding: 20px;
-    background: #000;
-    color: greenyellow; 
-    border: 2px solid greenyellow;
+    border-radius: 10px;   
 }
-.button-T{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(225, 255, 255, 0.1),-5px -5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
-    gap: 20px;
-}
-.btn:hover{
-    background-color: #fff;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
 }
